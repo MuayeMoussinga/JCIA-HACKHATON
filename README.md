@@ -6,11 +6,13 @@ Application web intelligente pour le tri des prunes
 ```bash
 git clone https://github.com/MuayeMoussinga/JCIA-HACKHATON.git
 cd JCIA-HACKHATON
-### 2. Création de l'environnment
+
+#2. Création de l'environnment
 python -m venv venv
 source venv/bin/activate  # Sur macOS/Linux
 venv\Scripts\activate  # Sur Windows
-### 3. Installation des dépendances
+
+# 3. Installation des dépendances
 pip install opencv-python
 pip install streamlit
 pip install ultralytics
