@@ -1,26 +1,30 @@
-# JCIA-HACKHATON
-Application web intelligente pour le tri des prunes
-## Installation  
+markdown
+# JCIA-HACKHATON  
+Application web intelligente pour le tri et la classification des prunes africaines à l'aide de l'intelligence artificielle.  
 
-### 1. Cloner le projet  
+## 📌 Description  
+Africa Plums est une application utilisant **YOLO** pour détecter et classer les prunes africaines. L'interface est développée avec **Streamlit**, offrant une expérience utilisateur fluide et interactive.  
+
+## 🚀 Installation  
+
+### 1️⃣ Cloner le projet  
 ```bash
 git clone https://github.com/MuayeMoussinga/JCIA-HACKHATON.git
 cd JCIA-HACKHATON
-
-#2. Création de l'environnment
+2️⃣ Création de l'environnement virtuel
+bash
 python -m venv venv
 source venv/bin/activate  # Sur macOS/Linux
 venv\Scripts\activate  # Sur Windows
-
-# 3. Installation des dépendances
+3️⃣ Installation des dépendances
+bash
 pip install opencv-python
 pip install streamlit
 pip install ultralytics
 pip install pillow
 pip install shutil
-### 4.Ouvrer le terminal dans le dossier du projet et exécuter cette commande
+4️⃣ Lancement de l'application
+Dans le terminal, exécute la commande suivante :
+
+bash
 streamlit run final_app.py
-
-
-
-
